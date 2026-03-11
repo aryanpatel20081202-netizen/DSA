@@ -1,0 +1,11 @@
+# gcd:- greatest common divisor
+
+def gcd(a, b):
+    if b == 0:
+        return 
+    return gcd(b, a % b)
+# example usage
+num1 = 16   
+num2 = 12
+result = gcd(num1, num2)
+print(f"The GCD of {num1} and {num2} is: {result}")
